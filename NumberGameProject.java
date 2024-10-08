@@ -5,7 +5,7 @@ import java.util.Random;
   */
  public class NumberGameProject {
     public static void main(String[] args) {
-        System.out.println("hi! Welcome To The Number Game");
+        System.out.println("Hi! Welcome To The Number Game");
         Scanner in = new Scanner(System.in);
         Random random=new Random();
         int random_input=random.nextInt(0,100)+1;
@@ -31,7 +31,7 @@ import java.util.Random;
                     else{
                         score *=5;
                     }
-                    System.out.println("Cougratulations");
+                    System.out.println("Congratulations");
                     System.out.println("You Entered The Correct Number.");
                     break;
                 }
